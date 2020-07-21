@@ -1,0 +1,82 @@
+.background
+  { 
+    background: url(../../assets/images/trips.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 100vh;
+    min-width: 100%;
+  }
+.music
+{
+    height: 300px;
+    width: 200px;
+    padding-top: 30px;
+    background-repeat: no-repeat;
+    position: relative;
+    background-color: rgba(255,255,255,.5);
+    font-family: 'Tangerine';
+    font-size: 30px;
+    padding-top: 100px;
+    padding-left: 20px;
+    text-shadow: 4px 4px 4px rgb(66, 65, 65);
+}
+.block
+{
+   display: inline-block;
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-right: 50px;
+
+    
+}
+.marginclass
+{
+    margin-top: 180px;
+    margin-left: 250px; 
+    position: fixed;
+}
+.roorkee
+{
+    background-image:  linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url();
+    background-blend-mode: screen;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.roorkee:hover{
+    background-image: url(../../assets/images/roorkee.jpg);
+    cursor: pointer;
+}
+.agra
+{
+    background-image:  linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url();
+    background-blend-mode: screen;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.agra:hover{
+    background-image: url(../../assets/images/tajmahal.jpg);
+    cursor: pointer;
+}
+.mumbai
+{
+    background-image:  linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url();
+    background-blend-mode: screen;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.mumbai:hover{
+    background-image: url(../../assets/images/mumbai.jpg);
+    cursor: pointer;
+}
+a {
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+  }

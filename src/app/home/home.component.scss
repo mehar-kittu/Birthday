@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Tangerine');
+  .background
+  { 
+    background: url(../../assets/images/pic7.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 100vh;
+    min-width: 100%;
+  }
+  
+  .center {
+    height: 200px;
+    width: 400px;    
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: 230px;
+    margin-left: -200px;
+}
+.text
+{
+    margin-left: 190px;
+    position: fixed;
+    text-align: center;
+    color:black;
+    font-family: 'Tangerine';
+    font-size: 200px;
+    text-shadow: 10px 10px 10px rgb(66, 65, 65);
+    margin-top: 20px;
+}
+.music
+{
+    height: 300px;
+    width: 200px;
+    padding-top: 30px;
+    background-repeat: no-repeat;
+    position: relative;
+    background-color:rgba(255,255,255,.5);
+    font-family: 'Tangerine';
+    font-size: 35px;
+    padding-top: 100px;
+    padding-left: 10px;
+    text-shadow: 4px 4px 4px rgb(66, 65, 65);
+}
+.block
+{
+   display: inline-block;
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-right: 50px;
+
+    
+}
+.marginclass
+{
+    margin-top: 180px;
+    margin-left: 250px; 
+    position: fixed;
+}
+.trip
+{
+    background-image:  linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url();
+    background-blend-mode: screen;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.trip:hover{
+    background-image: url(../../assets/images/pic1.jpg);
+    cursor: pointer;
+}
+.wish
+{
+    background-image:  linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url();
+    background-blend-mode: screen;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.wish:hover{
+    background-image: url(../../assets/images/pic3.jpg);
+    cursor: pointer;
+}
+.quiz
+{
+    background-image:  linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url();
+    background-blend-mode: screen;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.quiz:hover{
+    background-image: url(../../assets/images/pic4.jpg);
+    cursor: pointer;
+}
+a {
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+  }

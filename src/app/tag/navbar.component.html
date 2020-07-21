@@ -1,0 +1,52 @@
+<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <a class="navbar-brand" href="#"><h3><b>HAPPY BIRTHDAY</b></h3></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link btn" routerLink="/"><b>HOME</b></a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link btn" routerLink="/three"><b>ALL TAGS</b></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link btn" routerLink="/three/trips"><b>TRIPS</b></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link btn" routerLink="/three/wishes"><b>WISHES</b></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link btn" routerLink="/three/journey"><b>JOURNEY</b></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link btn" routerLink="/certificate"><b>CERTIFICATE</b></a>
+        </li>
+        <li class="nav-item">          
+          <div ngbDropdown class="d-inline-block">
+            <a class="btn nav-link" id="dropdownBasic1" ngbDropdownToggle><b>TRIPS</b></a>
+            <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+              <button ngbDropdownItem>ROORKEE</button>
+              <button ngbDropdownItem>AGRA</button>
+              <button ngbDropdownItem>MUMBAI</button>
+            </div>
+          </div>
+         <!--
+          <div ngbDropdown class="d-inline-block">
+            <button class="btn btn-outline-primary" id="dropdownMenuButton" ngbDropdownToggle>Dropdown button</button>
+            <div ngbDropdownMenu aria-labelledby="dropdownMenuButton">
+              <button ngbDropdownItem>Action</button>
+              <button ngbDropdownItem>Another Action</button>
+              <button ngbDropdownItem>Something else here</button>
+            </div>
+          </div>
+          -->
+        </li>
+        
+      </ul>
+      
+    </div>
+  </nav>
