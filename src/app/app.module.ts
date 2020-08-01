@@ -1,3 +1,4 @@
+import { RoorkeeComponent } from './tag/roorkee.component';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { NavbarComponent } from './tag/navbar.component';
 import { ThreeComponent } from './home/three.component';
@@ -13,6 +14,8 @@ import { WishesComponent } from './wishes/wishes.component';
 import { MemoryLaneComponent } from './memory-lane/memory-lane.component';
 import { CertificateComponent } from './certificate/certificate.component';
 import { FormsModule } from '@angular/forms';
+import { AgraComponent } from './tag/agra.component';
+import { MumbaiComponent } from './tag/mumbai.component';
 
 
 @NgModule({
@@ -24,7 +27,10 @@ import { FormsModule } from '@angular/forms';
     NavbarComponent,
     WishesComponent,
     MemoryLaneComponent,
-    CertificateComponent
+    CertificateComponent,
+    RoorkeeComponent,
+    AgraComponent,
+    MumbaiComponent
   ],
   imports: [
     BrowserModule,
@@ -38,6 +44,18 @@ import { FormsModule } from '@angular/forms';
       {
         path:'three/journey',
         component:MemoryLaneComponent
+      },
+      {
+        path:'three/trips/roorkee',
+        component:RoorkeeComponent
+      },
+      {
+        path:'three/trips/agra',
+        component:AgraComponent
+      },
+      {
+        path:'three/trips/mumbai',
+        component:MumbaiComponent
       },
       {
         path:'three/trips',
